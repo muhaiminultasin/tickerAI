@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>tikerAI</title>
+</head>
+<body>
+    <!-- Header start -->
+    <header class="md:mx-14 m-0 md:py-4 md:px-4" > 
+        <nav class="container  mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-1 md:gap-3">
+                <img src="img/tickerAI-logo 1.png" alt="Logo" class="w-10 md:w-fit">
+                <p class="text-[8px] md:text-xs">A Mark Cuban Company<br> AI-based Financial Market News Aggregator</p>
+            </div>
+            <div class="flex items-center gap-3 md:gap-5" >
+                <a href="#">
+                    <button class="bg-[#5677AC] text-xs px-2 md:px-4 py-1 md:py-2 rounded text-white font-semibold hover:bg-[#1e4687] transition hover:scale-105 ">Personalized news</button>
+                </a>
+                <div class="text-[#5677AC] font-bold bg-[#5677AC26] size-9 rounded-full flex items-center justify-center text-lg md:text-2xl hover:scale-105 transition-all cursor-pointer ">
+                    IK
+                </div>
+                <div class="flex items-center hover:scale-110 transition cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" /> 
+                      </svg>
+                      
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner start -->
+
+    <section class="flex flex-col items-center md:px-0 px-4 py-20 md:py-32 bg-no-repeat bg-cover bg-[url('https://images.pexels.com/photos/8370752/pexels-photo-8370752.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')]">
+        <h1 class="text-3xl md:text-7xl font-bold italic text-white px-2">Tiker AI</h1>
+        <div class="flex mt-2 md:mt-4 bg-white p-3 md:w-[520px] w-full hover:ring">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+            </svg>
+
+            <input type="text" name="search" class="w-full outline-none px-2 md:px-4" placeholder="Search any market topic....">
+        </div>
+        <p class="text-xs pt-2 md:pt-4 text-gray-300">There are 6 articles available for your preferences</p>
+    </section>
+
+    <!-- News section start -->
+
+    <section class="grid grid-cols-12 mx-auto mb-8 gap-8 md:px-0 px-4 pt-10">
+        <section class="md:col-span-9 col-span-12 md:ml-8  ">
+            <!-- Header-->
+            <div class="flex justify-between mb-8 border-b-[3px] border-black pb-4">
+                <h2 class="font-semibold">All news</h2>
+
+                <div class="flex items-center gap-3">
+                <p class="">Filter by:</p>
+                <p class="font-semibold cursor-pointer text-sm">stocks</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                </svg>
+                </div>
+            </div>
+
+            <!-- card start -->
+
+            <h1 class="font-bold text-2xl md:text-3xl">Individual Stocks</h1>
+
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div>  
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div>  
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div>  
+
+            <h1 class="font-bold text-2xl md:text-3xl pt-5">Individual Stocks</h1>
+
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div> 
+
+            
+
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div> 
+
+            <h1 class="font-bold text-2xl md:text-3xl pt-5">Individual Stocks</h1>
+
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border flex flex-col md:flex-row gap-5 p-1 mt-4 hover:scale-105 transition">
+                <img src="img/Rectangle 6.png" alt="img" class="rounded-sm w-full h-44 cover md:w-44">
+                <div>
+                    <div>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                        <span class="bg-black text-white text-sm px-1.5 py-0.4 rounded">john doe</span>
+                    </div>
+
+                    <div class="pt-2">
+                        <h2 class="font-semibold">Nzd/usd forex technical analysis - traders will be monitoring fed for future rate hike clues</h2>
+                        <p class="text-sm pt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam qui libero labore, architecto dolor, ea et, e orem10 Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, cum!
+
+                        </p>
+                    </div>
+
+                    <div class="flex gap-5 pt-3 text-sm">
+                        <p>06 September 2022</p>
+                        <p>by <span class="uppercase text-[#5677AC]">souvik nath</span></p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section>
+
+        </section>
+    </section>
+</body>
+</html>
